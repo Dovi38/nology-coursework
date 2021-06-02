@@ -1,0 +1,27 @@
+.header {
+  height: 70vh;
+  display: flex;;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  height: 50vh;
+  background-color: $color-primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  height: 10vh;
+  padding: 0 20px;
+  background-color: $color-primary;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
