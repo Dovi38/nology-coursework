@@ -1,0 +1,15 @@
+.main__container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $background-1;
+  .button__container {
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 68px);
+    max-width: 400px;
+  }
+}
+

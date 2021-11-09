@@ -1,0 +1,33 @@
+.display {
+  grid-column: span 4;
+  text-align: right;
+  height: 70px;
+  padding-right: 8px;
+  border-radius: 25px;
+  font-size: 30px;
+  margin: 10px 0 10px 0;
+  background-color: $background-2;
+}
+.button {
+  box-shadow: inset 6px 6px 13px $color-hover, 6px 6px 13px $color-shadow;
+  border-radius: 20px;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: $color-hover;
+
+  transition: 0.5s ease-in-out;
+}
+#reset {
+  background-color: $background-3;
+}
+#equal {
+  background-color: $background-4;
+  width: 200px;
+  
+}

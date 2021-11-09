@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+$font-main: 'Rubik', sans-serif;
+$background-calculator: rgb(202, 207, 209);
+$background-1: #e3ebf1;
+$background-2: rgb(183, 241, 125);
+$color-shadow: rgb(123, 124, 124);
+$background-3: rgba(228, 202, 85, 0.918);
+$background-4: rgba(221, 142, 236, 0.918);
+$color-hover: rgba(252, 252, 252, 0.973);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-main;
+  background: $background-calculator;
+  outline: none;
+}
