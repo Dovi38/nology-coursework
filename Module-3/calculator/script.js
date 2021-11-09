@@ -75,7 +75,7 @@ delButton.addEventListener('click', () => {
 
 //add decimal
 decimal.addEventListener('click', () => {
-  if (storedNumber === '.' || currentNumber.includes('.') || currentNumber === '' || getDisplay.value === result) {
+  if (storedNumber === '.' || currentNumber.includes('.') || currentNumber === '' || getDisplay.value == result) {
     return ;
   }
   getDisplay.value += decimal.innerText
